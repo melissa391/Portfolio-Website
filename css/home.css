@@ -1,0 +1,498 @@
+
+html, body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+h3, h2, h1, a, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Title and Nav Bar */
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 81px;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  background-color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+a h1 {
+  font-size: 32px;
+  color: black;
+  font-weight: normal;
+  padding-left: 68px;
+  padding-top: 23px;
+}
+
+nav {
+  list-style-type: none;
+  margin-right: 68px;
+  margin-top: 23px;
+  font-size: 32px;
+  color: black;
+}
+
+nav a {
+  margin-left: 32px;
+  color: black;
+  text-decoration: underline;
+}
+
+nav a:visited {
+  color: black;
+}
+
+nav a:active {
+  color: #A14344;
+}
+
+nav a:hover {
+  color: #A14344;
+}
+
+
+/* Banner Image */
+
+.banner-image img {
+  margin-top: 81px;
+  height: auto;
+  width: 100%;
+  display: block;
+  background-size: cover;
+  z-index: 1;
+}
+
+
+/* Bio */
+
+.bio {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.bio h2 {
+  padding-left: 68px;
+  padding-right: 68px;
+  padding-top: 23px;
+  padding-bottom: 30px;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+
+/* Selected Projects */
+
+.selected-projects {
+  width: 100%;
+  background-color: #017F85;
+  color: white;
+}
+
+.selected-projects h2 {
+  padding-left: 68px;
+  padding-top: 23px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.selected-projects a:visited {
+  color: white;
+}
+
+.selected-projects a:hover {
+  color: #A14344;
+}
+
+
+
+/* Project Images */
+
+.project-image img {
+  height: auto;
+  width: 100%;
+  display: block;
+
+}
+
+.small-tariff-prototypes { 
+display: none;
+ }
+
+
+
+/* Project Headings */
+
+.project-headings {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+ a h3 {
+   padding-left: 68px;
+   padding-top: 23px;
+   padding-bottom: 30px;
+   font-size: 26px;
+   font-weight: normal;
+   text-decoration: underline;
+   color: white;
+}
+
+
+a h3:visited {
+ color: white;
+}
+
+a h3:hover {
+ color: #A14344;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 30px;
+  width: 100%;
+  background-color: #017F85;
+}
+
+footer h2  {
+  padding: 30px 68px 30px 68px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+footer h4  {
+  padding-left: 68px;
+  margin-right: 45%;
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+footer a {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.top {
+  padding: 30px 68px 150px 68px;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+}
+
+.back-to-top {
+  background-color: black;
+}
+
+.top:hover {
+  color: #A14344;
+}
+
+.email {
+  color: black;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+
+.email:hover {
+  color: #A14344;
+}
+
+.email:visited {
+  color: black;
+}
+
+#contact {
+  height: 2
+}
+
+
+/* Project Pages */
+
+.project-titles {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.project-titles h2 {
+  padding: 23px 68px 30px 68px;
+  font-size: 44px;
+  font-weight: normal;
+}
+
+.project-banner img {
+  margin-top: 81px;
+  height: auto;
+  width: 100%;
+  display: block;
+  background-size: cover;
+  z-index: 1;
+}
+
+.project-images img {
+  height: auto;
+  width: 100%;
+  display: block;
+  background-size: cover;
+  z-index: 1;
+}
+
+.project-headings h3 {
+  padding-left: 68px;
+  padding-top: 23px;
+  padding-bottom: 30px;
+  font-size: 22px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+}
+
+  .smart-bin {
+    width: 50%;
+  }
+
+
+/* Project Text */
+
+.text {
+  width: auto;
+  padding: 5%;
+  margin-right: 45%;
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: normal;
+}
+
+.images {
+  width: 100%;
+  margin: 0px;
+  background-image: url(../images/home/images/project-pages/prototype-1.jpg);
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 900px) {
+
+  .diagrams img {
+    width: 200%;
+    margin-left: -300px;
+    margin-right: auto;
+  }
+
+  .text {
+    margin-right: 20%;
+  }
+
+  .smart-banner {
+    margin-top: 5px;
+  }
+
+  footer h4  {
+    margin-right: 20%;
+  }
+
+  .large-tariff-prototypes {
+    display: none;
+  }
+
+  .small-tariff-prototypes { 
+    display: block;
+     }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .small-tariff-prototypes { 
+    display: block;
+     }
+
+  .smart-bin {
+    width: 100%;
+  }
+
+  .large-tariff-prototypes {
+    display: none;
+  }
+
+  .text {
+    margin-top: 14.5px;
+    margin-right: 0;
+    margin-bottom: 14.5px;
+    font-size: 18px;
+  }
+
+  .bigger-image img {
+   width: 120%;
+   margin-left: -40px;
+   margin-right: auto;
+  }
+
+  .diagrams img {
+    width: 200%;
+    margin-left: -190px;
+    margin-right: auto;
+  }
+
+  /* Home */
+
+  .banner-image img {
+    margin-top: 90px;
+    height: auto;
+    width: 110%;
+    display: block;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    height: 94px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+  }
+
+  a h1 {
+    font-size: 22px;
+    color: black;
+    font-weight: normal;
+    padding-left: 14.5px;
+    padding-top: 14.5px;
+    padding-right: 64px;
+    width: 132px;
+  }
+
+  nav {
+    list-style-type: none;
+    margin-top: 14.5px;
+    margin-bottom: 14.5px;
+    font-size: 22px;
+    color: black;
+  }
+
+  nav a {
+    margin-left: 18px;
+    color: black;
+    text-decoration: underline;
+  }
+
+
+  /* Bio */
+
+  .bio h2 {
+    padding: 14.5px 14.5px 30px 14.5px;
+    font-size: 22px;
+    font-weight: normal;
+  }
+
+
+    /* Selected Projects */
+
+  .selected-projects h2 {
+    padding: 14.5px 14.5px 30px 14.5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+
+
+    /* Project Headings*/
+
+  .project-headings h3 {
+    padding: 14.5px 14.5px 30px 14.5px;
+    font-size: 22px;
+    font-weight: normal;
+  }
+
+
+   /* Footer*/
+
+   footer {
+     height: auto;
+     width: 100%;
+     background-color: #017F85;
+
+   }
+
+   footer h2  {
+     padding: 30px 14.5px 30px 14.5px;
+     font-size: 22px;
+     font-weight: bold;
+     color: white;
+   }
+
+
+   footer h4 {
+     padding-left: 14.5px;
+     font-size: 18px;
+     font-weight: normal;
+     margin-right: 14.5px;
+   }
+
+
+   footer a {
+     font-size: 22px;
+     font-weight: bold;
+   }
+
+   .top {
+     padding-left: 14.5px;
+     font-size: 22px;
+     font-weight: bold;
+     text-decoration: underline;
+     color: white;
+   }
+
+   .email {
+     padding-bottom: 30px;
+   }
+
+
+
+ /* Project Pages*/
+
+
+   .project-titles h2 {
+     padding: 14.5px;
+     font-size: 22px;
+   }
+
+   .project-headings h3 {
+     font-size: 18px;
+     padding: 14.5px;
+   }
+
+
+}
